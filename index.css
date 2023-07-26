@@ -1,0 +1,265 @@
+.nav{
+    background-color: #3C4AED;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 10em;
+}
+.logo{
+    /* padding-left: 250px; */
+}
+li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+
+}
+li a{
+    color :white;
+    font-size: 20px;
+    /*font-weight:bold;*/
+    margin-right: 25px;
+    text-decoration: none;
+}
+button{
+ background-color: #3C4AED;
+ margin-left: 10px;
+ border-radius: 80px;
+ border-color: white;
+ border-color: white;
+ padding: 10px;
+ width: 90;
+} .blue button a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.blue{
+    height:850px;
+    background-color: #3C4AED;
+}
+
+.blue p{
+    font-size:35px;
+font-weight:bold;
+   font-family: Arial, Helvetica, sans-serif;
+  /*  font-family: Ve;*/
+   color:white;
+   text-align: center;
+
+
+}
+.white{
+    margin-top: 20px;
+    background-color: white;
+
+}
+.white p{
+    font-size:23px;
+    color:black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.white h6{
+    font-weight: lighter;
+    font-family: serif;
+    font-size: larger;
+    color:rgba(0, 0, 0, 0.5);
+   text-align: center;
+}
+.white button{
+      text-align: center;
+      margin-left: 800px;
+      background-color:#FFFFFF;
+      color: #3C4AED;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: center;
+    
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-left: 300px;
+    font-size: medium;
+    color:#808080;
+}
+.grid1 h3{
+    color:black;
+}
+.grid1>div{
+    padding: 1em;
+    margin-left: 250;
+    font-size: medium;
+}
+.grid1>div:nth-child(odd){
+    background-color: white;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-left: 300px;
+    font-size: medium;
+    color:#808080;
+}
+.grid2 h3{
+    color:black;
+}
+.grid2>div{
+    padding: 1em;
+    margin-left: 250;
+    font-size: medium;
+}
+.grid2>div:nth-child(odd){
+    background-color: white;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-left: 300px;
+    font-size: medium;
+    color:#808080;
+}
+.grid3 h3{
+    color:black;
+}
+.grid3>div{
+    padding: 1em;
+    margin-left: 250;
+    font-size: medium;
+}
+.grid3>div:nth-child(odd){
+    background-color: white;
+}
+.grid4{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-left: 300px;
+    font-size: medium;
+    color:#808080;
+}
+.grid4 h3{
+    color:black;
+}
+.grid4>div{
+    padding: 1em;
+    margin-left: 250;
+    font-size: medium;
+}
+.grid4>div:nth-child(odd){
+    background-color: white;
+}
+.color{
+    background-color: #FFFEFA;
+}
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10em;
+    display: flex;
+    justify-content: center;
+    padding-top: 9%;
+}
+.innerdiv{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.innerdiv2{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.box .text{
+    font-weight: bolder;
+    font-size:30px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.whbt img{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 8em;
+
+
+}
+.sbt{
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.gif h1{
+    margin-top: 9%;
+    text-align:center;
+    font-weight:bolder;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.t{
+
+}
+.partner{
+    padding-left: 300px;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.thc{
+    display:grid;
+    grid-template-columns:  auto auto auto;
+}
+.thr{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.cvideo{
+  /* justify-content: center; */
+  padding-left: 500px; 
+}
+.cvideo h1 {
+ /* justify-content: center; */
+   padding-left: 20%;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+
+}
+.cvideo  img{ 
+    padding-left: 10%;
+}
+.cvideo p{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.partner h1{
+    /* justify-content: center; */
+      padding-left: 20%;
+      font-weight: bolder;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+   
+   }
+   .partner p{
+    padding-left: 20%;
+   }
+   .one{
+    padding-left: 20%;
+   }
+   .two{
+    padding-right: 30%;
+   }
